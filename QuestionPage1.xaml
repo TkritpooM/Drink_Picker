@@ -62,7 +62,7 @@
                HeightRequest="70"
                HasShadow="True">
                 <Frame.GestureRecognizers>
-                    <TapGestureRecognizer Tapped="OnChoiceTapped" />
+                    <TapGestureRecognizer Tapped="OnChoice1Tapped" />
                 </Frame.GestureRecognizers>
                 <HorizontalStackLayout>
                     <BoxView WidthRequest="30" HeightRequest="30" BackgroundColor="#FFD700" CornerRadius="15" />
@@ -81,6 +81,9 @@
                WidthRequest="300"
                HeightRequest="70"
                HasShadow="True">
+                <Frame.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnChoice2Tapped" />
+                </Frame.GestureRecognizers>
                 <HorizontalStackLayout>
                     <BoxView WidthRequest="30" HeightRequest="30" BackgroundColor="#00BCD4" CornerRadius="15" />
                     <Label Text="Excited"
@@ -98,6 +101,9 @@
                WidthRequest="300"
                HeightRequest="70"
                HasShadow="True">
+                <Frame.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnChoice3Tapped" />
+                </Frame.GestureRecognizers>
                 <HorizontalStackLayout>
                     <BoxView WidthRequest="30" HeightRequest="30" BackgroundColor="#9C27B0" CornerRadius="15" />
                     <Label Text="Tired"
@@ -115,6 +121,9 @@
                WidthRequest="300"
                HeightRequest="70"
                HasShadow="True">
+                <Frame.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnChoice4Tapped" />
+                </Frame.GestureRecognizers>
                 <HorizontalStackLayout>
                     <BoxView WidthRequest="30" HeightRequest="30" BackgroundColor="#8BC34A" CornerRadius="15" />
                     <Label Text="Stressed"

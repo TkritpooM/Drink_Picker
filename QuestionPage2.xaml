@@ -61,6 +61,9 @@
            WidthRequest="300"
            HeightRequest="70"
            HasShadow="True">
+                <Frame.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnChoice1Tapped" />
+                </Frame.GestureRecognizers>
                 <HorizontalStackLayout>
                     <BoxView WidthRequest="30" HeightRequest="30" BackgroundColor="#FFD700" CornerRadius="15" />
                     <Label Text="Help me relax"
@@ -78,6 +81,9 @@
            WidthRequest="300"
            HeightRequest="70"
            HasShadow="True">
+                <Frame.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnChoice2Tapped" />
+                </Frame.GestureRecognizers>
                 <HorizontalStackLayout>
                     <BoxView WidthRequest="30" HeightRequest="30" BackgroundColor="#00BCD4" CornerRadius="15" />
                     <Label Text="Boost my energy"

@@ -1,4 +1,16 @@
-﻿obj\Debug\net9.0-android\resizetizer\r\drawable\drink_icon.png
+﻿obj\Debug\net9.0-android\resizetizer\r\drawable\applejuice.png
+obj\Debug\net9.0-android\resizetizer\r\drawable\bananasmoothie.png
+obj\Debug\net9.0-android\resizetizer\r\drawable\berrysmoothie.png
+obj\Debug\net9.0-android\resizetizer\r\drawable\blacktea.png
+obj\Debug\net9.0-android\resizetizer\r\drawable\cappuccino.png
+obj\Debug\net9.0-android\resizetizer\r\drawable\drink_icon.png
+obj\Debug\net9.0-android\resizetizer\r\drawable\espresso.png
+obj\Debug\net9.0-android\resizetizer\r\drawable\grapejuice.png
+obj\Debug\net9.0-android\resizetizer\r\drawable\greentea.png
+obj\Debug\net9.0-android\resizetizer\r\drawable\latte.png
+obj\Debug\net9.0-android\resizetizer\r\drawable\mangosmoothie.png
+obj\Debug\net9.0-android\resizetizer\r\drawable\matchalatte.png
+obj\Debug\net9.0-android\resizetizer\r\drawable\orangejuice.png
 obj\Debug\net9.0-android\resizetizer\r\drawable-hdpi\dotnet_bot.png
 obj\Debug\net9.0-android\resizetizer\r\drawable-mdpi\dotnet_bot.png
 obj\Debug\net9.0-android\resizetizer\r\drawable-xhdpi\dotnet_bot.png

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ProjectApp_101.DataOfDrinks"
+             Title="DataOfDrinks">
+    <StackLayout Padding="10" Spacing="15">
+        <!-- แสดงชื่อเครื่องดื่ม -->
+        <Label Padding="10"
+           x:Name="ChoosenDrink"
+           FontSize="28"
+           TextColor="Black"
+           VerticalOptions="Start" 
+           HorizontalOptions="Center" 
+           Margin="0,0,0,5"/>
+
+        <!-- แสดงรูปเครื่องดื่ม -->
+        <Image x:Name="DrinkImage"
+           HorizontalOptions="Center"
+           VerticalOptions="Center"
+           HeightRequest="200"
+           WidthRequest="200" 
+           Aspect="AspectFit"
+           Margin="0,0,0,20"/>
+
+        <!-- แสดงรายละเอียด -->
+        <Label x:Name="Ingredient"
+           FontSize="18"
+           HorizontalOptions="Start"
+           VerticalOptions="Start" />
+
+        <Label x:Name="Tastee"
+           FontSize="18"
+           HorizontalOptions="Start"
+           VerticalOptions="Start" />
+
+        <Label x:Name="Benefitss"
+           FontSize="18"
+           HorizontalOptions="Start"
+           VerticalOptions="Start" />
+
+        <Label x:Name="Suitablee"
+           FontSize="18"
+           HorizontalOptions="Start"
+           VerticalOptions="Start" />
+
+        <Button Text="Reset"
+                FontSize="20"
+                WidthRequest="200"
+                HorizontalOptions="EndAndExpand"
+                VerticalOptions="EndAndExpand"
+                Clicked="OnStartAgainClicked"/>
+    </StackLayout>
+
+</ContentPage>

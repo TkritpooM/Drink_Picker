@@ -1,3 +1,4 @@
+C:\Users\admin\source\repos\ProjectApp_101\ProjectApp_101\bin\Debug\net9.0-maccatalyst\maccatalyst-x64\Resources\drinks.txt
 C:\Users\admin\source\repos\ProjectApp_101\ProjectApp_101\bin\Debug\net9.0-maccatalyst\maccatalyst-x64\ProjectApp_101.runtimeconfig.json
 C:\Users\admin\source\repos\ProjectApp_101\ProjectApp_101\bin\Debug\net9.0-maccatalyst\maccatalyst-x64\ProjectApp_101.dll
 C:\Users\admin\source\repos\ProjectApp_101\ProjectApp_101\bin\Debug\net9.0-maccatalyst\maccatalyst-x64\ProjectApp_101.pdb
@@ -253,7 +254,6 @@ C:\Users\admin\source\repos\ProjectApp_101\ProjectApp_101\obj\Debug\net9.0-macca
 C:\Users\admin\source\repos\ProjectApp_101\ProjectApp_101\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\mauifont.inputs
 C:\Users\admin\source\repos\ProjectApp_101\ProjectApp_101\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\mauisplash.inputs
 C:\Users\admin\source\repos\ProjectApp_101\ProjectApp_101\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\mauisplash.stamp
-C:\Users\admin\source\repos\ProjectApp_101\ProjectApp_101\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\drink_icon.png
 C:\Users\admin\source\repos\ProjectApp_101\ProjectApp_101\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\appiconItunesArtwork.png
 C:\Users\admin\source\repos\ProjectApp_101\ProjectApp_101\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\appicon83.5x83.5@2x.png
 C:\Users\admin\source\repos\ProjectApp_101\ProjectApp_101\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\appicon76x76@2x.png
@@ -266,6 +266,19 @@ C:\Users\admin\source\repos\ProjectApp_101\ProjectApp_101\obj\Debug\net9.0-macca
 C:\Users\admin\source\repos\ProjectApp_101\ProjectApp_101\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\appicon20x20@3x.png
 C:\Users\admin\source\repos\ProjectApp_101\ProjectApp_101\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\appicon20x20@2x.png
 C:\Users\admin\source\repos\ProjectApp_101\ProjectApp_101\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\Contents.json
+C:\Users\admin\source\repos\ProjectApp_101\ProjectApp_101\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\applejuice.png
+C:\Users\admin\source\repos\ProjectApp_101\ProjectApp_101\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\drink_icon.png
+C:\Users\admin\source\repos\ProjectApp_101\ProjectApp_101\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\espresso.png
+C:\Users\admin\source\repos\ProjectApp_101\ProjectApp_101\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\orangejuice.png
+C:\Users\admin\source\repos\ProjectApp_101\ProjectApp_101\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\greentea.png
+C:\Users\admin\source\repos\ProjectApp_101\ProjectApp_101\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\grapejuice.png
+C:\Users\admin\source\repos\ProjectApp_101\ProjectApp_101\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\latte.png
+C:\Users\admin\source\repos\ProjectApp_101\ProjectApp_101\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\mangosmoothie.png
+C:\Users\admin\source\repos\ProjectApp_101\ProjectApp_101\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\berrysmoothie.png
+C:\Users\admin\source\repos\ProjectApp_101\ProjectApp_101\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\bananasmoothie.png
+C:\Users\admin\source\repos\ProjectApp_101\ProjectApp_101\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\blacktea.png
+C:\Users\admin\source\repos\ProjectApp_101\ProjectApp_101\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\cappuccino.png
+C:\Users\admin\source\repos\ProjectApp_101\ProjectApp_101\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\matchalatte.png
 C:\Users\admin\source\repos\ProjectApp_101\ProjectApp_101\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\resizetizer\r\dotnet_bot@3x.png
 C:\Users\admin\source\repos\ProjectApp_101\ProjectApp_101\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\resizetizer\r\dotnet_bot@2x.png
 C:\Users\admin\source\repos\ProjectApp_101\ProjectApp_101\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\resizetizer\r\dotnet_bot.png
@@ -292,6 +305,7 @@ C:\Users\admin\source\repos\ProjectApp_101\ProjectApp_101\obj\Debug\net9.0-macca
 C:\Users\admin\source\repos\ProjectApp_101\ProjectApp_101\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\ProjectApp_101.AssemblyInfoInputs.cache
 C:\Users\admin\source\repos\ProjectApp_101\ProjectApp_101\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\ProjectApp_101.AssemblyInfo.cs
 C:\Users\admin\source\repos\ProjectApp_101\ProjectApp_101\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\ProjectApp_101.csproj.CoreCompileInputs.cache
+C:\Users\admin\source\repos\ProjectApp_101\ProjectApp_101\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\ProjectApp_101.sourcelink.json
 C:\Users\admin\source\repos\ProjectApp_101\ProjectApp_101\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\XamlC.stamp
 C:\Users\admin\source\repos\ProjectApp_101\ProjectApp_101\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\ProjectA.E367D97B.Up2Date
 C:\Users\admin\source\repos\ProjectApp_101\ProjectApp_101\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\ProjectApp_101.dll

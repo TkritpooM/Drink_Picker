@@ -8,6 +8,12 @@
     <DefaultDevice>poom_-_emulator</DefaultDevice>
   </PropertyGroup>
   <ItemGroup>
+    <MauiXaml Update="DataOfDrinks.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="DrinkCategory.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
     <MauiXaml Update="QuestionPage1.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
