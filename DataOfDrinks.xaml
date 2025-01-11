@@ -3,52 +3,81 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="ProjectApp_101.DataOfDrinks"
              Title="DataOfDrinks">
-    <StackLayout Padding="10" Spacing="15">
-        <!-- แสดงชื่อเครื่องดื่ม -->
-        <Label Padding="10"
-           x:Name="ChoosenDrink"
-           FontSize="28"
-           TextColor="Black"
-           VerticalOptions="Start" 
-           HorizontalOptions="Center" 
-           Margin="0,0,0,5"/>
+    <ContentPage.Background>
+        <!-- ไล่สีพื้นหลัง -->
+        <LinearGradientBrush StartPoint="0,0" EndPoint="0,1">
+            <GradientStop Color="#DDF2FF" Offset="0.0" />
+            <!-- สีฟ้าอ่อน -->
+            <GradientStop Color="#FFFFFF" Offset="1.0" />
+            <!-- สีขาว -->
+        </LinearGradientBrush>
+    </ContentPage.Background>
 
-        <!-- แสดงรูปเครื่องดื่ม -->
-        <Image x:Name="DrinkImage"
-           HorizontalOptions="Center"
-           VerticalOptions="Center"
-           HeightRequest="200"
-           WidthRequest="200" 
-           Aspect="AspectFit"
-           Margin="0,0,0,20"/>
+    <StackLayout Padding="20" Spacing="20">
+        <!-- ชื่อเครื่องดื่ม -->
+        <Label 
+            x:Name="ChoosenDrink"
+            FontSize="28"
+            TextColor="Black"
+            HorizontalOptions="Center"
+            VerticalOptions="Start"
+            Margin="0,10,0,10"
+            HorizontalTextAlignment="Center" />
 
-        <!-- แสดงรายละเอียด -->
-        <Label x:Name="Ingredient"
-           FontSize="18"
-           HorizontalOptions="Start"
-           VerticalOptions="Start" />
-
-        <Label x:Name="Tastee"
-           FontSize="18"
-           HorizontalOptions="Start"
-           VerticalOptions="Start" />
-
-        <Label x:Name="Benefitss"
-           FontSize="18"
-           HorizontalOptions="Start"
-           VerticalOptions="Start" />
-
-        <Label x:Name="Suitablee"
-           FontSize="18"
-           HorizontalOptions="Start"
-           VerticalOptions="Start" />
-
-        <Button Text="Reset"
-                FontSize="20"
+        <!-- รูปเครื่องดื่ม -->
+        <Frame
+            Padding="0"
+            BorderColor="Gray"
+            CornerRadius="10"
+            HorizontalOptions="Center"
+            VerticalOptions="Start"
+            HeightRequest="220"
+            WidthRequest="220">
+            <Image 
+                x:Name="DrinkImage"
+                HeightRequest="200"
                 WidthRequest="200"
-                HorizontalOptions="EndAndExpand"
-                VerticalOptions="EndAndExpand"
-                Clicked="OnStartAgainClicked"/>
-    </StackLayout>
+                Aspect="AspectFit" />
+        </Frame>
 
+        <!-- รายละเอียด -->
+        <StackLayout Padding="0" Spacing="10">
+            <Label 
+                x:Name="Ingredient"
+                FontSize="20"
+                HorizontalOptions="Start"
+                VerticalOptions="Start" />
+
+            <Label 
+                x:Name="Tastee"
+                FontSize="20"
+                HorizontalOptions="Start"
+                VerticalOptions="Start" />
+
+            <Label 
+                x:Name="Benefitss"
+                FontSize="20"
+                HorizontalOptions="Start"
+                VerticalOptions="Start" />
+
+            <Label 
+                x:Name="Suitablee"
+                FontSize="20"
+                HorizontalOptions="Start"
+                VerticalOptions="Start" />
+        </StackLayout>
+
+        <!-- ปุ่ม Reset -->
+        <Button 
+            Margin="0,20,0,0"
+            Text="OK"
+            FontSize="20"
+            WidthRequest="150"
+            HorizontalOptions="Center"
+            VerticalOptions="End"
+            BackgroundColor="#007ACC"
+            TextColor="White"
+            CornerRadius="20"
+            Clicked="OnStartAgainClicked" />
+    </StackLayout>
 </ContentPage>

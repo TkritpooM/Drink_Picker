@@ -13,13 +13,13 @@
 
         <!-- Question -->
         <Frame Grid.Row="0"
-       BackgroundColor="White"
-       CornerRadius="20"
-       Padding="20"
-       HeightRequest="220"
-       HorizontalOptions="Center"
-       WidthRequest="320"
-       HasShadow="True">
+               BackgroundColor="White"
+               CornerRadius="20"
+               Padding="20"
+               HeightRequest="220"
+               HorizontalOptions="Center"
+               WidthRequest="320"
+               HasShadow="True">
             <VerticalStackLayout VerticalOptions="FillAndExpand" Spacing="0">
                 <!-- Question No -->
                 <Label Text="Question 2"
@@ -43,11 +43,11 @@
 
         <!-- Divider Line -->
         <BoxView Grid.Row="1"
-             HeightRequest="1"
-             BackgroundColor="Black"
-             HorizontalOptions="FillAndExpand"
-             VerticalOptions="Center"
-             Margin="0,30,0,30" />
+                 HeightRequest="1"
+                 BackgroundColor="Black"
+                 HorizontalOptions="FillAndExpand"
+                 VerticalOptions="Center"
+                 Margin="0,30,0,30" />
 
         <!-- Choice -->
         <VerticalStackLayout Grid.Row="2"
@@ -56,41 +56,41 @@
                      HorizontalOptions="Center">
             <!-- Help me relax -->
             <Frame BackgroundColor="White"
-           CornerRadius="30"
-           Padding="15"
-           WidthRequest="300"
-           HeightRequest="70"
-           HasShadow="True">
+                   CornerRadius="30"
+                   Padding="15"
+                   WidthRequest="300"
+                   HeightRequest="70"
+                   HasShadow="True">
                 <Frame.GestureRecognizers>
                     <TapGestureRecognizer Tapped="OnChoice1Tapped" />
                 </Frame.GestureRecognizers>
                 <HorizontalStackLayout>
                     <BoxView WidthRequest="30" HeightRequest="30" BackgroundColor="#FFD700" CornerRadius="15" />
                     <Label Text="Help me relax"
-                   FontSize="22"
-                   TextColor="#333333"
-                   VerticalOptions="Center"
-                   Margin="20,0,0,0" />
+                           FontSize="22"
+                           TextColor="#333333"
+                           VerticalOptions="Center"
+                           Margin="20,0,0,0" />
                 </HorizontalStackLayout>
             </Frame>
 
             <!-- Boost my energy -->
             <Frame BackgroundColor="White"
-           CornerRadius="30"
-           Padding="15"
-           WidthRequest="300"
-           HeightRequest="70"
-           HasShadow="True">
+                   CornerRadius="30"
+                   Padding="15"
+                   WidthRequest="300"
+                   HeightRequest="70"
+                   HasShadow="True">
                 <Frame.GestureRecognizers>
                     <TapGestureRecognizer Tapped="OnChoice2Tapped" />
                 </Frame.GestureRecognizers>
                 <HorizontalStackLayout>
                     <BoxView WidthRequest="30" HeightRequest="30" BackgroundColor="#00BCD4" CornerRadius="15" />
                     <Label Text="Boost my energy"
-                   FontSize="22"
-                   TextColor="#333333"
-                   VerticalOptions="Center"
-                   Margin="20,0,0,0" />
+                           FontSize="22"
+                           TextColor="#333333"
+                           VerticalOptions="Center"
+                           Margin="20,0,0,0" />
                 </HorizontalStackLayout>
             </Frame>
         </VerticalStackLayout>

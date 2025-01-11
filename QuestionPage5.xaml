@@ -13,84 +13,84 @@
 
         <!-- Question -->
         <Frame Grid.Row="0"
-   BackgroundColor="White"
-   CornerRadius="20"
-   Padding="20"
-   HeightRequest="220"
-   HorizontalOptions="Center"
-   WidthRequest="320"
-   HasShadow="True">
+               BackgroundColor="White"
+               CornerRadius="20"
+               Padding="20"
+               HeightRequest="220"
+               HorizontalOptions="Center"
+               WidthRequest="320"
+               HasShadow="True">
             <VerticalStackLayout VerticalOptions="FillAndExpand" Spacing="0">
                 <!-- Question No -->
                 <Label Text="Question 5"
-                   FontSize="20"
-                   FontAttributes="Bold"
-                   TextColor="#CF600A"
-                   HorizontalOptions="Start"
-                   VerticalOptions="Start" />
+                       FontSize="20"
+                       FontAttributes="Bold"
+                       TextColor="#CF600A"
+                       HorizontalOptions="Start"
+                       VerticalOptions="Start" />
 
                 <!-- Spacer to push the second label down -->
                 <BoxView HeightRequest="40" VerticalOptions="FillAndExpand" BackgroundColor="White"/>
 
                 <!-- Question Title -->
                 <Label Text="Do you prefer a hot or cold drink today?"
-                   FontSize="28"
-                   TextColor="#333333"
-                   HorizontalOptions="Center"
-                   VerticalOptions="Center" />
+                       FontSize="28"
+                       TextColor="#333333"
+                       HorizontalOptions="Center"
+                       VerticalOptions="Center" />
             </VerticalStackLayout>
         </Frame>
 
         <!-- Divider Line -->
         <BoxView Grid.Row="1"
-         HeightRequest="1"
-         BackgroundColor="Black"
-         HorizontalOptions="FillAndExpand"
-         VerticalOptions="Center"
-         Margin="0,30,0,30" />
+                 HeightRequest="1"
+                 BackgroundColor="Black"
+                 HorizontalOptions="FillAndExpand"
+                 VerticalOptions="Center"
+                 Margin="0,30,0,30" />
 
         <!-- Choice -->
         <VerticalStackLayout Grid.Row="2"
-                 Spacing="20"
-                 VerticalOptions="Start"
-                 HorizontalOptions="Center">
+                             Spacing="20"
+                             VerticalOptions="Start"
+                             HorizontalOptions="Center">
             <!-- Hot drink -->
             <Frame BackgroundColor="White"
-       CornerRadius="30"
-       Padding="15"
-       WidthRequest="300"
-       HeightRequest="70"
-       HasShadow="True">
+                   CornerRadius="30"
+                   Padding="15"
+                   WidthRequest="300"
+                   HeightRequest="70"
+                   HasShadow="True">
                 <Frame.GestureRecognizers>
                     <TapGestureRecognizer Tapped="OnChoice1Tapped" />
                 </Frame.GestureRecognizers>
                 <HorizontalStackLayout>
                     <BoxView WidthRequest="30" HeightRequest="30" BackgroundColor="#FFD700" CornerRadius="15" />
                     <Label Text="Hot drink"
-               FontSize="22"
-               TextColor="#333333"
-               VerticalOptions="Center"
-               Margin="20,0,0,0" />
+                           FontSize="22"
+                           TextColor="#333333"
+                           VerticalOptions="Center"
+                           Margin="20,0,0,0" />
                 </HorizontalStackLayout>
             </Frame>
 
             <!-- Cold drink -->
             <Frame BackgroundColor="White"
-       CornerRadius="30"
-       Padding="15"
-       WidthRequest="300"
-       HeightRequest="70"
-       HasShadow="True">
+                   CornerRadius="30"
+                   Padding="15"
+                   WidthRequest="300"
+                   HeightRequest="70"
+                   HasShadow="True">
                 <Frame.GestureRecognizers>
                     <TapGestureRecognizer Tapped="OnChoice2Tapped" />
                 </Frame.GestureRecognizers>
                 <HorizontalStackLayout>
                     <BoxView WidthRequest="30" HeightRequest="30" BackgroundColor="#00BCD4" CornerRadius="15" />
                     <Label Text="Cold drink"
-               FontSize="22"
-               TextColor="#333333"
-               VerticalOptions="Center"
-               Margin="20,0,0,0" />
+                           FontSize="22"
+                           TextColor="#333333"
+                           VerticalOptions="Center"
+                           Margin="20,0,0,0" />
                 </HorizontalStackLayout>
             </Frame>
         </VerticalStackLayout>
